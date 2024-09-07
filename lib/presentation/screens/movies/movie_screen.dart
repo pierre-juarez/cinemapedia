@@ -54,7 +54,7 @@ class MovieScreenState extends ConsumerState<MovieScreen> {
 }
 
 class _MovieDetails extends StatelessWidget {
-  const _MovieDetails({super.key, required this.movie});
+  const _MovieDetails({required this.movie});
 
   final Movie movie;
 
@@ -173,7 +173,7 @@ class _ActorsByMovie extends ConsumerWidget {
 }
 
 class _CustomSliverAppBar extends StatelessWidget {
-  const _CustomSliverAppBar({super.key, required this.movie});
+  const _CustomSliverAppBar({required this.movie});
 
   final Movie movie;
 
